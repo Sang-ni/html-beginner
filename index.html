@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>다양한 입력 요소 만들기</title>
+    <title>서버에 요청을 보내자, 폼!</title>
 </head>
 <body>
-    <h3>먹고 싶은 음식을 골라주세요</h3>
-    <select name="food" multiple>
+    <form action="exam.php" method="POST">
+        <h1>먹고 싶은 음식</h1>
+        <input type="text" placeholder="이름" name="name">
+        <br>
+        <select name="food">
         <option value="malatang">마라탕</option>
-        <option value="spicy dak-bal">매운 닭발</option>
-        <option value="uk-ke bibimbap">육회비빔밥</option>
-        <option value="strawberry cake">딸기 케이크</option>
-    </select>
-    <br><br>
-    <textarea name="content" 
-    rows="10" cols="10">추가로 입력해주세요</textarea>
+        <option value="dak-bal">닭발</option>
+        <option value="spicy noodle">불닭볶음면</option>
+        </select>
+        <br><br>
+        <input type="submit" value="전송">
+    </form>
 </body>
 </html>
