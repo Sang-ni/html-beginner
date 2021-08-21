@@ -1,3 +1,10 @@
-p{
-    color: bisque;
+h1{
+    color:cornflowerblue;
+}
+li{
+    font-size: 10px;
+    color: mediumturquoise;
+}
+span{
+    color: darksalmon;
 }
