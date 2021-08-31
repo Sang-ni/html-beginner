@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 문서</title>
     <style>
-        div{width: 100px; height: 100px;
+        div{width: 200px; height: 200px;
             background-color: pink;
+            border: 1px solid steelblue;
             position: relative;
-            top: 100px; left: 100px;}
+        }
+        .abs{
+            width: 100px; height: 100px;
+            background-color: plum;
+            position: absolute;
+            top: 200px;
+        }
     </style>
 </head>
 <body>
     <h1>무슨 색을 좋아하시나요?</h1>
     <div></div>
+    <div>
+        <div class="abs"></div>
+        <p>pink!</p>
+    </div>
 </body>
 </html>
