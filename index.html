@@ -7,20 +7,19 @@
     <title>HTML 문서</title>
     <style>
         /* first-line marker placeholder before after */
-        p::first-line{
-            color: orange;
+        li::marker{
+            color: blueviolet;
+            font-size: 30px;
         }
-        p::first-letter{
-            color: orchid; font-size: 20px;
-        }
+        li:nth-child(2n){color: brown;}
     </style>
 </head>
 <body>
-    <p>
-        퍼스트 라인 그리고 퍼스트 레터
-        퍼스트 라인 그리고 퍼스트 레터
-        퍼스트 라인 그리고 퍼스트 레터
-        퍼스트 라인 그리고 퍼스트 레터
-    </p>
+    <ul>
+        <li>마라탕</li>
+        <li>커리</li>
+        <li>피자</li>
+        <li>떡볶이</li>
+    </ul>
 </body>
 </html>
