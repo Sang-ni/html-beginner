@@ -7,13 +7,18 @@
     <title>HTML 문서</title>
     <style>
         /* first-line marker placeholder before after */
-        input::placeholder{
-            font-size: 24px;
-            color: cadetblue;
+        p::before{
+            content: "앞에다 추가한 텍스트";
+            color: skyblue; font-weight: 800;
+        }
+        p::after{
+            content: "뒤에다 추가한 텍스트";
+            color: salmon; font-weight: 100;
         }
     </style>
 </head>
 <body>
-    <input type="text" placeholder="주인님 최고!">
+    <p>원래 쓰여 있던 내용</p>
+    <p>두 번째 내용</p>
 </body>
 </html>
