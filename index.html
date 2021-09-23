@@ -6,26 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 문서</title>
     <style>
-        div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 300px; height: 300px;
-
-            color: seagreen;
-            font-size: 24px;
-            border: steelblue dashed 3px;
-        }
-        p{
-            color: unset;
-            font-size: unset;
-            border: unset;
-        }
+        div{ width: 100px; height: 100px; position: relative;}
+        div:nth-child(1){ background-color: teal; }
+        div:nth-child(2){ background-color: tomato; bottom: 50px;}
+        div:nth-child(3){ background-color: yellowgreen; bottom: 100px;}
+        div:nth-child(4){ background-color: skyblue; bottom: 150px;}
+        .first{z-index: 4;}
+        .second{z-index: 2;}
+        .third{z-index: 2;}
+        .fourth{z-index: 1;}
     </style>
 </head>
 <body>
-    <div>
-        <p>가운데 p 태그</p>
-    </div>
+    <div class="first">배</div>
+    <div class="second">고</div>
+    <div class="third">파</div>
+    <div class="fourth">요</div>
 </body>
 </html>
