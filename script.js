@@ -1,2 +1,1 @@
-window.console.log('Sang-ni')
-console.log('Master')
+window.console.log('Sang-ni'); console.log('Master');
