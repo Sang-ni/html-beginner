@@ -1,3 +1,5 @@
-const promptMessage = "언제 만날 수 있나요?";
-const result = prompt(promptMessage)
-console.log(result)
+let bth = 10.19
+let hername = 'sang.ni';
+
+console.log("그녀의 이름은 ${hername}, 곧 그녀의 생일 ${bth}");
+console.log(`그녀의 이름은 ${hername}, 곧 그녀의 생일 ${bth}`);
