@@ -1,7 +1,8 @@
-let result = 3
-result = result + 3
-console.log(result)
+let data;
+console.log(data);
 
-let result1 = 3
-result1 += 3
-console.log(result1)
+data = "Hello";
+console.log(data);
+
+data = null;
+console.log(data);
