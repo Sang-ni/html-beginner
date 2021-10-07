@@ -1,6 +1,10 @@
-console.log(7)
-console.log(3+4)
-console.log(3-4)
-console.log(3*4)
-console.log(3/4)
-console.log(3%4)
+let result = 1 + 1 + 2 + 3 + 3
+console.log(result)
+result = 1 - 1
+console.log(result)
+result = 1 * 1
+console.log(result)
+result = 1 / 1
+console.log(result)
+result = 1 % 1
+console.log(result)
