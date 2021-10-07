@@ -1,10 +1,10 @@
 let result = 1 + 1 + 2 + 3 + 3
 console.log(result)
-result = 1 - 1
+result = 1 + 1 / 2 * 3 + 3
 console.log(result)
-result = 1 * 1
+result = (1 + 1) / 2 * 3 + 3
 console.log(result)
-result = 1 / 1
+result = (1 + 1) / 2 * (3 + 3)
 console.log(result)
-result = 1 % 1
+result = (1 + 1) * 2 % (3 + 3)
 console.log(result)
