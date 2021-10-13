@@ -1,5 +1,2 @@
-console.log(document.querySelector("h1"))
-console.log(document.querySelector("p"))
-console.log(document.querySelector("#text"))
-console.log(document.querySelector(".paragraph"))
-console.log(document.querySelector(".aragraph"))
+console.log(document.getElementById("text"))
+console.log(document.getElementById("p"))
